@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>About Me</title>
+		<!--Source: https://thenounproject.com/icon/profile-3462781/-->
+		<link rel="icon" type="image/x-icon" href="AboutMe.png">
+		<!--Linking the CSS-->
+		<link rel="stylesheet" type="text/css" href="aboutMe.css">
+	</head>
+	<body>
+		<!-- For some reason, the page has a horizontal scrollbar, indicating that there was something that was reaching out too far, so I made a div that would hide all stuff beyond that point and it seemed to fix the issue -->
+		<div id="wrap">
+		<header> 
+		  <p id="pages">Pages:</p> 
+		<!-- creating the links -->
+		<!-- active means that we are currrently on that page -->
+		  <br>
+		  <button onclick="history.back()" id="backButton">Go Back</button>
+		  <a class="navLink" href="main.html">Homepage</a>
+		  <a class="navLink" id="active" href="aboutMe.html">About me</a>
+		</header>
+		<h1><b>About Me</b></h1>
+		<hr>
+		<table id="sides">
+			<tr>
+				<th id="leftside">
+					<h3>Picture of Me</h3>
+						<!-- Source: My student card pic -->
+						<img src="Me.png" alt="Pic of Me">
+					<h3>My Socials</h3>
+					<div class="container">
+						<a href="mailto:348628959@gapps.yrdsb.ca">
+						<!-- Source: https://www.vecteezy.com/png/20009614-email-and-mail-icon-black -->
+							<img src="Mail.webp" class="icon" style="margin-right: 30px;"></a>
+						<a href="https://www.instagram.com/jchan0101/">
+						<!-- Source: https://www.freepnglogos.com/images/logo-ig-png-32457.html -->
+							<img src="Instagram.png" class="icon" style="margin-right: 30px;"></a>
+						<a href="https://scratch.mit.edu/users/JAYMC0101/">
+						<!-- https://iconduck.com/icons/1413/scratch -->
+						<!-- This is just my scratch account, I haven't used it in a while, but I felt it was somewhat relevant to this project -->
+							<img src="Scratch.png" class="icon" style="margin-right: 30px;"></a>
+					</div>
+				</th>
+				<th id="rightside">
+					<h3>My Interests</h3>
+					<!-- I might've been able to format this list differently, but I needed to include an unordered list somewhere on my webpage -->
+					<ul>
+						<br>
+						<!-- Source: https://cdnlogo.com/logo/ps5-8211-playstation-5_39047.html -->
+						<li>Video Games</li><br><img src="ps5.png" class="icon">
+						<br>
+						<br>
+						<!-- Source: https://www.nicepng.com/downpng/u2q8e6o0i1r5a9o0_dragon-ball-7-dragon-ball-ball-png/ -->
+						<li>Anime</li><br><img src="DragonBall.png" class="icon">
+						<br>
+						<br>
+						<!-- Source: https://commons.wikimedia.org/wiki/File:HTML5_logo_and_wordmark.svg -->
+						<li>Coding</li><br><img src="HTML.png" class="icon">
+						<br>
+						<br>
+						<!-- Source: https://www.freeiconspng.com/img/19055 -->
+						<li>Science</li><br><img src="Science.png" class="icon">
+						<br>
+						<br>
+						<!-- Source: https://en.m.wikipedia.org/wiki/File:Pok%C3%A9_Ball_icon.svg -->
+						<li>Pokemon</li><br><img src="PokeBall.png" class="icon">
+						<br>
+					</ul>
+				</th>
+			</tr>
+		</table>
+		<hr>
+		<div class="container">
+		<h3>MY CAT!</h3>
+		</div>
+		<div class="container">
+		<!-- Source: My cat lol -->
+		<img src="Cat.png" alt="My cat">
+		</div>
+		<br>
+		<hr><br><a id="sublink" href="#top"><button>Back to Top</button></a><br><br>
+		<hr>		
+		<footer>
+				<h6><a href="mailto:348628959@gapps.yrdsb.ca">Contact Me</a><br><br><marquee behavior="scroll" direction="left" scrollamount="20"><a id="abtMe" href="aboutMe.html">&copy; 2023 Jayden Chan</a></marquee></h6>
+		</footer>
+	</div>
+	</body>
+</html>

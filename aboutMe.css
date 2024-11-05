@@ -1,0 +1,167 @@
+header {
+	/* Source: https://wallpaperaccess.com/minecraft-grass*/
+	background-image: url('Grass.png');
+	background-size: 12%;
+	padding: 13px 13px 10px;
+	text-align: center;
+	font-size: 18px;
+	font-family: fantasy;
+	margin: 1px 1px 1px 1px;
+}
+
+#pages {
+	font-family: 'Baloo 2';
+	font-size: 18px;
+	color: #68C732;
+	line-height: 0px;
+	margin-bottom: 0px;
+}
+
+.navLink:link, .navLink:visited {
+  	background-color: #68C732;
+  	color: #60460C;
+  	text-decoration: none;
+  	display: inline-block;
+  	margin-right: 10px;
+  	border: 2px solid black;
+  	border-radius: 4px;
+}
+
+.navLink#active {
+  	background-color: #60460C;
+  	color: #68C732;
+  	border: 2px solid black;
+  	border-radius: 4px;
+}
+
+.navLink:hover:not(.active) {
+	background-color: #60460C;
+  	color: #68C732;
+ 	border: 2px solid black;
+  	border-radius: 4px;
+}
+
+#backButton {
+	background-color: #60460C;
+	color: #68C732;
+	float: left;
+}
+
+body {
+	background-color: yellow;
+	color: black;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	text-align: center;
+}
+
+hr {
+	height: 1px;
+	background-color: black;
+}
+
+h1 {
+	font-family: georgia, serif;
+	/*Source: https://www.rawpixel.com/image/5924106/photo-image-public-domain-stars-galaxy?page=1&sort=curated&topic_group=_topics */
+	background-image: url('Galaxy.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: 100% 100%;
+	color: #F1F1F1;
+	padding: 50px 50px 50px;
+	text-align: center;
+	font-size: 40px;
+	margin: 1px 1px 1px 1px;
+}
+
+#sides {
+	border: none;
+	color: none;
+	background-color: none;
+	width: 100%;
+}
+
+#leftside {
+	width: 40%;
+	vertical-align: top;
+}
+
+#rightside {
+	width: 60%;
+	vertical-align: top;
+}
+
+h3 {
+	vertical-align: top;
+	font-size: 30px;
+}
+
+ul {
+	padding-left: 40%;
+}
+
+li {
+	text-align: left;
+	font-size: 24px;
+}
+
+footer {
+	background-image: url('Ocean.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: 100% 100%;
+	padding: 5px 5px 5px;
+	text-align: center;
+	font-size: 30px;
+	color: #FF8F00;
+	margin: 1px 1px 1px 1px;
+	height: 150px;
+}
+
+h6 {
+	color: black;
+}
+
+#abtMe:link, #abtMe:visited {
+	color: black;
+	background-color: none;
+	border: 0px;
+	border-radius: 0px;
+	text-decoration: underline;
+}
+
+#abtMe:hover {
+	color: white;
+	background-color: black;
+	text-decoration: none;
+}
+
+#sublink:link, #sublink:visited {
+	color: #FFFFFF;
+	background-color: #8AC926;
+	border: 0px;
+	border-radius: 0px;
+	text-decoration: none;
+}
+
+#sublink:hover {
+	color: #8AC926;
+	background-color: #FFFFFF;
+	text-decoration: underline;
+	border: 0px;
+	border-radius: 0px;
+}
+
+.container {
+  	display: flex;
+  	justify-content: center;
+  	align-items: center;
+}
+
+.icon {
+	height: 100px;
+	margin-right: 80%;
+}
+
+#wrap {
+	overflow-x: hidden;
+}

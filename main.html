@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Homepage</title>
+		<!-- Source: https://www.flaticon.com/free-icon/home_25694-->
+		<!-- The Favicon will display next to the title of the page-->
+		<!-- I took the code for the favicon from W3schools, but I don't think there is any other way to add one -->
+		<link rel="icon" type="image/x-icon" href="House.png">
+		<!-- Linking the CSS-->
+		<link rel="stylesheet" type="text/css" href="main.css">
+	</head>
+	<body id="homepage">
+		<header> 
+		  <p id="pages">Pages:</p> 
+		<!-- creating the links -->
+		<!-- active means that we are currrently on that page -->
+		  <br>
+		  <button onclick="history.back()" id="backButton">Go Back</button>
+		  <a class="navLink" id="active" href="main.html">Homepage</a>
+		  <a class="navLink" href="aboutMe.html">About me</a>
+		</header>
+			<h1><b>Welcome to Jayden's Portfolio</b></h1>
+			<div class="container"><h2 id="introduction">Introduction</h2></div>
+				<p>My name is Jayden Chan, and I am a Grade 11 student at Markville Secondary School. <br> The purpose of this website is so I can get some free boba </p>
+			<hr>
+						<h4>What do you think of this website?<h4>
+				<!-- Sorry for the rickroll -->
+				<form action="https://www.youtube.com/watch?v=dQw4w9WgXcQ" method="POST">
+					<textarea name="comment" rows="20" cols="70" placeholder="Write your answer here"></textarea>
+						<br>					
+					<section class="submission">
+						<input type="submit" value="Submit" onclick="Submission()">
+					</section>
+				</form>
+				<hr><br><a id="sublink" href="#top"><button>Back to Top</button></a><br><br>
+			<footer>
+				<!-- Marquee tag will cause the text to follow a set path -->
+				<h6><a href="mailto:348628959@gapps.yrdsb.ca">Contact Me</a><br><br><marquee behavior="scroll" direction="left" scrollamount="20"><a id="abtMe" href="aboutMe.html">&copy; 2023 Jayden Chan</a></marquee></h6>
+			</footer>
+		<script>
+			function Submission() {
+  			alert("Thank you for your opinion. Enjoy the rickroll :).");
+			}
+		</script>
+	</body>
+</html>
+
